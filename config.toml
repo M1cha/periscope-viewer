@@ -1,0 +1,344 @@
+size = [2141, 238]
+scale = 0.5
+
+[[controllers]]
+id = 0
+layout = "trolls"
+position = [50, 0]
+
+[[controllers]]
+id = 1
+layout = "trolls"
+position = [1316, 0]
+
+[[layouts]]
+name = "trolls"
+
+[[layouts.items]]
+position = [0, 0]
+type = "image"
+path = "assets/background.png"
+
+[[layouts.items]]
+position = [500, 125]
+type = "circle"
+radius = 25
+fill_color = "FFFFFFFF"
+if = ["ButtonA"]
+
+[[layouts.items]]
+position = [523, 150]
+type = "text"
+size = 27
+color = "FFFFFFFF"
+value = "A"
+if = ["!ButtonA"]
+
+[[layouts.items]]
+position = [523, 150]
+type = "text"
+size = 27
+color = "000000FF"
+value = "A"
+if = ["ButtonA"]
+
+[[layouts.items]]
+position = [450, 175]
+type = "circle"
+radius = 25
+fill_color = "FFFFFFFF"
+if = ["ButtonB"]
+
+[[layouts.items]]
+position = [475, 198]
+type = "text"
+size = 27
+color = "FFFFFFFF"
+value = "B"
+if = ["!ButtonB"]
+
+[[layouts.items]]
+position = [475, 198]
+type = "text"
+size = 27
+color = "000000FF"
+value = "B"
+if = ["ButtonB"]
+
+[[layouts.items]]
+position = [450, 75]
+type = "circle"
+radius = 25
+fill_color = "FFFFFFFF"
+if = ["ButtonX"]
+
+[[layouts.items]]
+position = [475, 102]
+type = "text"
+size = 27
+color = "FFFFFFFF"
+value = "X"
+if = ["!ButtonX"]
+
+[[layouts.items]]
+position = [475, 102]
+type = "text"
+size = 27
+color = "000000FF"
+value = "X"
+if = ["ButtonX"]
+
+[[layouts.items]]
+position = [400, 125]
+type = "circle"
+radius = 25
+fill_color = "FFFFFFFF"
+if = ["ButtonY"]
+
+[[layouts.items]]
+position = [427, 150]
+type = "text"
+size = 27
+color = "FFFFFFFF"
+value = "Y"
+if = ["!ButtonY"]
+
+[[layouts.items]]
+position = [427, 150]
+type = "text"
+size = 27
+color = "000000FF"
+value = "Y"
+if = ["ButtonY"]
+
+[[layouts.items]]
+position = [408, 20]
+type = "circle"
+radius = 17.5
+fill_color = "FFFFFFFF"
+if = ["ButtonPlus"]
+
+[[layouts.items]]
+position = [425.57, 37]
+type = "text"
+size = 25
+color = "FFFFFFFF"
+value = "+"
+if = ["!ButtonPlus"]
+
+[[layouts.items]]
+position = [425.57, 37]
+type = "text"
+size = 25
+color = "000000FF"
+value = "+"
+if = ["ButtonPlus"]
+
+[[layouts.items]]
+position = [308, 20]
+type = "circle"
+radius = 17.5
+fill_color = "FFFFFFFF"
+if = ["ButtonMinus"]
+
+[[layouts.items]]
+position = [325.5, 35]
+type = "text"
+size = 35
+color = "FFFFFFFF"
+value = "-"
+if = ["!ButtonMinus"]
+
+[[layouts.items]]
+position = [325.5, 35]
+type = "text"
+size = 35
+color = "000000FF"
+value = "-"
+if = ["ButtonMinus"]
+
+[[layouts.items]]
+position = [12, 12]
+type = "rectangle"
+size = [50, 50]
+fill_color = "FFFFFFFF"
+if = ["ButtonL"]
+
+[[layouts.items]]
+position = [40, 37]
+type = "text"
+size = 35
+color = "FFFFFFFF"
+value = "L"
+if = ["!ButtonL"]
+
+[[layouts.items]]
+position = [40, 37]
+type = "text"
+size = 35
+color = "000000FF"
+value = "L"
+if = ["ButtonL"]
+
+[[layouts.items]]
+position = [62, 12]
+type = "rectangle"
+size = [100, 50]
+fill_color = "FFFFFFFF"
+if = ["ButtonZL"]
+
+[[layouts.items]]
+position = [112, 37]
+type = "text"
+size = 35
+color = "FFFFFFFF"
+value = "ZL"
+if = ["!ButtonZL"]
+
+[[layouts.items]]
+position = [112, 37]
+type = "text"
+size = 35
+color = "000000FF"
+value = "ZL"
+if = ["ButtonZL"]
+
+[[layouts.items]]
+position = [700, 12]
+type = "rectangle"
+size = [50, 50]
+fill_color = "FFFFFFFF"
+if = ["ButtonR"]
+
+[[layouts.items]]
+position = [722, 37]
+type = "text"
+size = 35
+color = "FFFFFFFF"
+value = "R"
+if = ["!ButtonR"]
+
+[[layouts.items]]
+position = [722, 37]
+type = "text"
+size = 35
+color = "000000FF"
+value = "R"
+if = ["ButtonR"]
+
+[[layouts.items]]
+position = [600, 12]
+type = "rectangle"
+size = [100, 50]
+fill_color = "FFFFFFFF"
+if = ["ButtonZR"]
+
+[[layouts.items]]
+position = [650, 37]
+type = "text"
+size = 35
+color = "FFFFFFFF"
+value = "ZR"
+if = ["!ButtonZR"]
+
+[[layouts.items]]
+position = [650, 37]
+type = "text"
+size = 35
+color = "000000FF"
+value = "ZR"
+if = ["ButtonZR"]
+
+[[layouts.items]]
+position = [200, 125]
+type = "rectangle"
+size = [56, 50]
+fill_color = "FFFFFFFF"
+if = ["ButtonDpadLeft"]
+
+[[layouts.items]]
+position = [250, 75]
+type = "rectangle"
+size = [50, 56]
+fill_color = "FFFFFFFF"
+if = ["ButtonDpadUp"]
+
+[[layouts.items]]
+position = [294, 125]
+type = "rectangle"
+size = [50, 50]
+fill_color = "FFFFFFFF"
+if = ["ButtonDpadRight"]
+
+[[layouts.items]]
+position = [250, 169]
+type = "rectangle"
+size = [50, 50]
+fill_color = "FFFFFFFF"
+if = ["ButtonDpadDown"]
+
+[[layouts.items]]
+position = [37, 100]
+position_modifier = { type = "stick_left", range = 38 }
+type = "circle"
+radius = 50
+fill_color = "FFFFFFFF"
+
+[[layouts.items]]
+position = [625, 100]
+position_modifier = { type = "stick_right", range = 38 }
+type = "circle"
+radius = 50
+fill_color = "FFFFFFFF"
+
+[[items]]
+position = [1068.5, 0]
+type = "rectangle"
+size = [4, 238]
+fill_color = "FFFFFFFF"
+
+[[items]]
+position = [946.75, 99]
+type = "text"
+size = 100
+color = "FFFFFFFF"
+value = "P1"
+
+[[items]]
+position = [946.75, 174]
+type = "text"
+size = 30
+color = "76FF03FF"
+value = "Connected"
+if = ["Connected0"]
+
+[[items]]
+position = [946.75, 174]
+type = "text"
+size = 30
+color = "BDBDBDFF"
+value = "Disconnected"
+if = ["!Connected0"]
+
+[[items]]
+position = [1190.25, 99]
+type = "text"
+size = 100
+color = "FFFFFFFF"
+value = "P2"
+
+[[items]]
+position = [1190.25, 174]
+type = "text"
+size = 30
+color = "76FF03FF"
+value = "Connected"
+if = ["Connected1"]
+
+[[items]]
+position = [1190.25, 174]
+type = "text"
+size = 30
+color = "BDBDBDFF"
+value = "Disconnected"
+if = ["!Connected1"]
